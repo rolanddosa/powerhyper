@@ -11,6 +11,6 @@
     <title>Welcome</title>
 </head>
 <body>
-
+<h2>Great to have you on board, ${name}</h2>
 </body>
 </html>
