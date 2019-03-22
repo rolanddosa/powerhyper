@@ -2,6 +2,7 @@ package mainPackage;
 
 import mainPackage.Project;
 import mainPackage.ProjectRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:4200")
 public class ProjectController {
 
+    @Autowired
     private ProjectRepository projectRepository;
 
     @GetMapping("/projects")
@@ -20,6 +22,7 @@ public class ProjectController {
     @PostMapping("/projects")
     void addProject(@RequestBody Project project) {
         projectRepository.save(project);
+        System.out.println("ADDED NEW PROJECT");
     }
 
 }
