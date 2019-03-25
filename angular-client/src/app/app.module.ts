@@ -1,19 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { HomePageComponent } from './home-page/home.page.component';
-import { ProjectListComponent } from './project-list/project-list.component';
-import { ProjectFormComponent } from './project-form/project-form.component';
+import { AppComponent } from './app.component';
+import { AppRoutingModule} from './app-routing.module';
+import { Home } from './home/home.component';
+import { Ambition } from './ambition/ambition.component';
+import { Economics } from './economics/economics.component';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
 import {ProjectService} from "./service/project-service.service";
+import { Crowdfunding } from './crowdfunding/crowdfunding.component';
 
 @NgModule({
   declarations: [
-    HomePageComponent,
-    ProjectListComponent,
-    ProjectFormComponent
+    AppComponent,
+    Home,
+    Ambition,
+    Economics,
+    Crowdfunding
   ],
   imports: [
     BrowserModule,
@@ -22,6 +26,6 @@ import {ProjectService} from "./service/project-service.service";
     FormsModule
   ],
   providers: [ProjectService],
-  bootstrap: [HomePageComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

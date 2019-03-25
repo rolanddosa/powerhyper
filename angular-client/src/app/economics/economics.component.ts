@@ -4,11 +4,11 @@ import {ActivatedRoute, Router} from "@angular/router";
 import {ProjectService} from "../service/project-service.service";
 
 @Component({
-  selector: 'app-project-form',
-  templateUrl: './project-form.component.html',
-  styleUrls: ['./project-form.component.css']
+  selector: 'economics',
+  templateUrl: './economics.component.html',
+  styleUrls: ['./economics.component.css']
 })
-export class ProjectFormComponent implements OnInit {
+export class Economics implements OnInit {
 
   project: Project;
 
