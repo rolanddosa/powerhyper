@@ -1,0 +1,29 @@
+<div>
+
+  <h2 class="text-center">{{ title }}</h2>
+
+  <p>Friend With Earth is an initiative which has the mission to support all activities contributing to the
+    sustainability of the environment. It is a place that provides analysis, suggestions and inspiration towards
+    positive action to be taken to maintain our planet healthy.
+  </p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-xs-6">
+        <img src="../../assets/images/wind-farm.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <div class="text-center list-inline py-3"><a routerLink="/projects" class="btn btn-info">List Projects</a></div>
+  <div class="text-center list-inline py-3"><a routerLink="/addproject" class="btn btn-info">Add Project</a></div>
+  <router-outlet></router-outlet>
+  <footer>
+    <p>Posted by: Friend With Earth</p>
+    <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+  </footer>
+
+
+
+</div>
