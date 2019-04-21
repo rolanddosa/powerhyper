@@ -10,7 +10,6 @@ import javax.xml.bind.Unmarshaller;
 import java.io.StringReader;
 
 @Repository
-@EnableWebMvc
 public class ElexonRestRepository {
 
     private Response response;

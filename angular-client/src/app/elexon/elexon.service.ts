@@ -13,6 +13,6 @@ export class ElexonService {
   }
 
   getPower(): Observable<any>{
-    return this.http.get('http://localhost:8080/elexon',{responseType: 'json'});
+    return this.http.get('//localhost:8080/elexon',{responseType: 'json'});
   }
 }
