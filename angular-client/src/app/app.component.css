@@ -1,0 +1,11 @@
+#myId {
+  background-color: #eaecef;
+}
+
+#stickyClass {
+  position: sticky;
+}
+
+.myWhiteBackground{
+  background:#ffffff;
+}

@@ -4,6 +4,7 @@ import {Ambition} from "./ambition/ambition.component";
 import {Economics} from "./economics/economics.component";
 import {Home} from "./home/home.component";
 import {Crowdfunding} from "./crowdfunding/crowdfunding.component";
+import {Disclaimer} from "./disclaimer/disclaimer.component";
 
 const routes: Routes = [
   {path: 'home', component: Home},
@@ -14,6 +15,7 @@ const routes: Routes = [
       {path: 'crowdfunding', component: Crowdfunding}
     ]
   },
+  {path: 'disclaimer', component: Disclaimer},
   //EXAMPLE OF USING CHILDREN ROUTES
   // { path: 'user', children: [
   //     { path: 'list', component: UserListComponent}

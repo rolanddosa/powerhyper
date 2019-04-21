@@ -7,6 +7,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.stream.Stream;
 
@@ -30,7 +31,6 @@ public class Application extends SpringBootServletInitializer {
                 Project project = new Project(name, name.toLowerCase() + "@domain.com");
                 projectRepository.save(project);
             });
-            projectRepository.findAll().forEach(System.out::println);
         };
     }
 }

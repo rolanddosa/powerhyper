@@ -1,31 +1,30 @@
 package mainPackage;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import mainPackage.elexonRestService.ElexonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
+@RestController
 @CrossOrigin(origins = "http://localhost:4200")
 public class ProjectController {
-
-    private static Logger logger = LoggerFactory.getLogger(ProjectController.class);
 
     @Autowired
     private ProjectRepository projectRepository;
 
+    @Autowired
+    private ElexonService elexonService;
+
     @GetMapping("/projects")
     public List<Project> getProjects() {
-        return (List<Project>) projectRepository.findAll();
+        List<Project> projects = (List<Project>) projectRepository.findAll();
+        return projects;
     }
 
-    @PostMapping("/projects")
-    void addProject(@RequestBody Project project) {
-        projectRepository.save(project);
-        logger.info("Added new project: {}", project.toString());
+    @GetMapping("/elexon")
+    public String getElexon() {
+        return elexonService.updateElexonValues();
     }
-
 }

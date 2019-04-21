@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Project} from "../project";
+import {ElexonService} from "../elexon/elexon.service";
+import {Observable} from "rxjs";
 import {ProjectService} from "../service/project-service.service";
 
 @Component({
@@ -8,16 +10,7 @@ import {ProjectService} from "../service/project-service.service";
   styleUrls: ['./ambition.component.css']
 })
 export class Ambition implements OnInit {
-
-  projects: Project[];
-
-  constructor(private projectService: ProjectService) { }
-
-  ngOnInit() {
-    //BACKEND CALL - TO BE IMPLEMENTED
-    // this.projectService.findAll().subscribe(data => {
-    //   this.projects = data;
-    // })
-  }
-
+  ngOnInit() {}
 }
+
+
