@@ -1,8 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import {Project} from "../project";
-import {ElexonService} from "../elexon/elexon.service";
-import {Observable} from "rxjs";
-import {ProjectService} from "../service/project-service.service";
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'ambition',
