@@ -86,10 +86,11 @@ export class Home implements OnInit{
             labels: [this.fuel1, this.fuel2, this.fuel3, this.fuel4, this.fuel5, this.fuel6, this.fuel7, this.fuel8,
               this.fuel9, this.fuel10, this.fuel11, this.fuel12, this.fuel13, this.fuel14, this.fuel15],
             datasets: [{
-              label: 'Live Power Generation UK',
+              label: 'Live Power Generation UK (MW)',
               data: [this.mwmw1, this.mwmw2, this.mwmw3, this.mwmw4, this.mwmw5, this.mwmw6, this.mwmw7, this.mwmw8,
-                this.mwmw9, this.mwmw10, this.mwmw11, this.mwmw12, this.mwmw13, this.mwmw14, this.mwmw15]
-            }]
+                this.mwmw9, this.mwmw10, this.mwmw11, this.mwmw12, this.mwmw13, this.mwmw14, this.mwmw15],
+              backgroundColor:'#89e5ff'
+            }],
           },
           options: {}
         })

@@ -4,10 +4,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-<header class="bg-dark">
-  *placeholder*
+<header class="bg-dark whiteFont customHeightHeader">
+  <a href="" class="ml-5 mr-3 customHref">Investments landscape</a>
+  <a>|</a>
+  <a href="" class="m-3 customHref">Partners</a>
+  <a>|</a>
+  <a href="" class="m-3 customHref">Resources</a>
 </header>
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
   <a class="navbar-brand" routerLink="/home">FWE</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -44,26 +48,29 @@
   <div class="container text-center text-md-left">
     <div class="row text-center text-md-left mt-3 pb-3">
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <p>
+          <a class="mb-4 font-weight-bold">About us</a>
+        </p>
         <p style="color:black;">Friend With Earth (FWE) covers initiatives aiding the development and transition to renewable energy.
           It is a platform that evaluates all relevant topics and proposes actions related to the matter.</p>
       </div>
       <hr class="w-100 clearfix d-md-none">
       <hr class="w-100 clearfix d-md-none">
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <h6 class="mb-4 font-weight-bold ">Useful links</h6>
         <p>
-          <a href="#!">Your Account</a>
+          <a href="#!" class="customHref">Your Account</a>
         </p>
         <p>
-          <a id="myId" href="#!">Become an Affiliate</a>
+          <a id="myId" href="#!" class="customHref">Become an Affiliate</a>
         </p>
         <p>
-          <a href="#!">Help</a>
+          <a href="#!" class="customHref">Help</a>
         </p>
       </div>
       <hr class="w-100 clearfix d-md-none">
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <h6 class="mb-4 font-weight-bold">Contact</h6>
         <p>
           <i class="fas fa-envelope mr-3"></i>info@friendwithearth.com</p>
         <p>
@@ -105,10 +112,8 @@
     </div>
   </div>
 </footer>
-<div style="text-align:center">
-  <p>
-    <a href="#"><span class="label label-info">Privacy</span></a>
-    | <i class="icon-user"></i> <a href="#">Site Map</a>
-    | <a routerLink="/disclaimer">Disclaimer</a>
-  </p>
+<div style="text-align:center" class="bg-dark whiteFont customHeightFooter">
+    <a href="#" class="customHref"><span class="label label-info">Privacy</span></a>
+    | <i class="icon-user customHref"></i> <a href="#" class="customHref">Site Map</a>
+    | <a routerLink="/disclaimer" class="customHref">Disclaimer</a>
 </div>

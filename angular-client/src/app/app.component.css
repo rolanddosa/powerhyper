@@ -9,3 +9,19 @@
 .myWhiteBackground{
   background:#ffffff;
 }
+
+.whiteFont{
+  color: white;
+}
+
+.customHref{
+  color: inherit;
+}
+
+.customHeightHeader{
+  height: 28px;
+}
+
+.customHeightFooter{
+  height: 28px;
+}
