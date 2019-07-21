@@ -11,6 +11,8 @@ import {FormsModule} from "@angular/forms";
 import {ProjectService} from "./service/project-service.service";
 import { Crowdfunding } from './crowdfunding/crowdfunding.component';
 import {Disclaimer} from "./disclaimer/disclaimer.component";
+import {Certifications} from "./certifications/certifications.component";
+import {ProjectAppraisal} from "./projectAppraisal/projectappraisal.component";
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import {Disclaimer} from "./disclaimer/disclaimer.component";
     Ambition,
     Economics,
     Crowdfunding,
-    Disclaimer
+    Disclaimer,
+    Certifications,
+    ProjectAppraisal
   ],
   imports: [
     BrowserModule,

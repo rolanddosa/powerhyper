@@ -9,3 +9,12 @@ p {
 .right{
   float: right;
 }
+
+.mr-custom {
+  margin-right: 15% !important;
+}
+
+.ml-custom {
+  margin-left: 15% !important;
+}
+

@@ -5,6 +5,8 @@ import {Economics} from "./economics/economics.component";
 import {Home} from "./home/home.component";
 import {Crowdfunding} from "./crowdfunding/crowdfunding.component";
 import {Disclaimer} from "./disclaimer/disclaimer.component";
+import {Certifications} from "./certifications/certifications.component";
+import {ProjectAppraisal} from "./projectAppraisal/projectappraisal.component";
 
 const routes: Routes = [
   {path: 'home', component: Home},
@@ -16,10 +18,8 @@ const routes: Routes = [
     ]
   },
   {path: 'disclaimer', component: Disclaimer},
-  //EXAMPLE OF USING CHILDREN ROUTES
-  // { path: 'user', children: [
-  //     { path: 'list', component: UserListComponent}
-  //   ]}
+  {path: 'certifications', component: Certifications},
+  {path: 'projectAppraisal', component: ProjectAppraisal},
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: '**', redirectTo: '/home', pathMatch: 'full'}
 ];

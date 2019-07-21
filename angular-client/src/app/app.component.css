@@ -1,4 +1,4 @@
-#myId {
+#footerBackground {
   background-color: #eaecef;
 }
 
@@ -24,4 +24,12 @@
 
 .customHeightFooter{
   height: 28px;
+}
+
+.mr-custom {
+  margin-right: 15% !important;
+}
+
+.ml-custom {
+  margin-left: 15% !important;
 }

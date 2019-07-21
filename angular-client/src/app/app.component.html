@@ -13,7 +13,8 @@
 </header>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
   <a class="navbar-brand" routerLink="/home">FWE</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -27,11 +28,11 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/economics">Economics</a>
       </li>
+      <!--<li class="nav-item">-->
+        <!--<a class="nav-link" routerLink="/projectAppraisal">Project Appraisal</a>-->
+      <!--</li>-->
       <li class="nav-item">
-        <a class="nav-link" routerLink="/economics">Project Appraisal</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/economics">Due Diligence</a>
+        <a class="nav-link" routerLink="/certifications">Certifications</a>
       </li>
     </ul>
   </div>
@@ -42,16 +43,17 @@
     </form>
   </nav>
 </nav>
-<router-outlet></router-outlet>
 </body>
-<footer id="myId">
+<router-outlet></router-outlet>
+<footer id="footerBackground">
   <div class="container text-center text-md-left">
     <div class="row text-center text-md-left mt-3 pb-3">
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <p>
           <a class="mb-4 font-weight-bold">About us</a>
         </p>
-        <p style="color:black;">Friend With Earth (FWE) covers initiatives aiding the development and transition to renewable energy.
+        <p style="color:black;">Friend With Earth (FWE) covers initiatives aiding the development and transition to
+          renewable energy.
           It is a platform that evaluates all relevant topics and proposes actions related to the matter.</p>
       </div>
       <hr class="w-100 clearfix d-md-none">
@@ -60,9 +62,6 @@
         <h6 class="mb-4 font-weight-bold ">Useful links</h6>
         <p>
           <a href="#!" class="customHref">Your Account</a>
-        </p>
-        <p>
-          <a id="myId" href="#!" class="customHref">Become an Affiliate</a>
         </p>
         <p>
           <a href="#!" class="customHref">Help</a>
@@ -75,12 +74,17 @@
           <i class="fas fa-envelope mr-3"></i>info@friendwithearth.com</p>
         <p>
       </div>
+      <hr>
+    </div>
+    <br>
+    <div class="text-center">
+      <a href="https://www.instagram.com/friendwithearth/" target="_blank"><img src="../assets/images/instagram_icon.png"></a>
     </div>
     <hr>
     <div class="row d-flex align-items-center">
       <div class="col-md-7 col-lg-8">
         <p class="text-center text-md-left">© 2019 :
-            <strong>Friend With Earth</strong>
+          <strong>Friend With Earth</strong>
         </p>
       </div>
       <div class="col-md-5 col-lg-4 ml-lg-0">
@@ -111,9 +115,9 @@
       </div>
     </div>
   </div>
-</footer>
-<div style="text-align:center" class="bg-dark whiteFont customHeightFooter">
+  <div style="text-align:center" class="bg-dark whiteFont ">
     <a href="#" class="customHref"><span class="label label-info">Privacy</span></a>
     | <i class="icon-user customHref"></i> <a href="#" class="customHref">Site Map</a>
     | <a routerLink="/disclaimer" class="customHref">Disclaimer</a>
-</div>
+  </div>
+</footer>

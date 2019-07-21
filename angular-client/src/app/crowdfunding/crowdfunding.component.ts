@@ -18,5 +18,4 @@ export class Crowdfunding implements OnInit {
 
   ngOnInit() {
   }
-
 }
