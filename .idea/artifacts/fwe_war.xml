@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="fwe:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="friend-with-earth-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="fwe:war exploded" />
-    </root>
-  </artifact>
-</component>
