@@ -1,0 +1,35 @@
+#footerBackground {
+  background-color: #eaecef;
+}
+
+#stickyClass {
+  position: sticky;
+}
+
+.myWhiteBackground{
+  background:#ffffff;
+}
+
+.whiteFont{
+  color: white;
+}
+
+.customHref{
+  color: inherit;
+}
+
+.customHeightHeader{
+  height: 28px;
+}
+
+.customHeightFooter{
+  height: 28px;
+}
+
+.mr-custom {
+  margin-right: 15% !important;
+}
+
+.ml-custom {
+  margin-left: 15% !important;
+}
