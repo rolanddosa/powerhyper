@@ -4,7 +4,7 @@ function Navbar() {
     {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light shadow">
-                <a className="navbar-brand" href="#">FWE</a>
+                <a className="navbar-brand" href="#">powerhyper</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
