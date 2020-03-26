@@ -22,10 +22,10 @@ function App() {
                 <Route path="/" exact component={Home}/>
                 <Route path={"/ambition"} component={Ambition}/>
                 <Route path={"/timeline"} component={Timeline}/>
-                <Route path={"/energy-economics"} component={EnergyEconomics}/>
-                <Route path={"/live-tracker"} component={LiveTracker}/>
-                <Route path={"/energy-attribute-certificates"} component={EnergyAttributeCertificates}/>
-                <Route path={"/machine-learning"} component={MachineLearning}/>
+                <Route path={"/energyEconomics"} component={EnergyEconomics}/>
+                <Route path={"/liveTracker"} component={LiveTracker}/>
+                <Route path={"/energyAttributeCertificates"} component={EnergyAttributeCertificates}/>
+                <Route path={"/machineLearning"} component={MachineLearning}/>
                 <Footer/>
             </div>
         </BrowserRouter>

@@ -23,18 +23,18 @@ function Navbar() {
                             <a className="nav-link" href="/timeline">Timeline</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/energy-economics">Energy Economics</a>
+                            <a className="nav-link" href="/energyEconomics">Energy Economics</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/live-tracker">Live Tracker</a>
+                            <a className="nav-link" href="/liveTracker">Live Tracker</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">New Ideas</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="/energy-attribute-certificates">Energy Attribute
+                                <a className="dropdown-item" href="/energyAttributeCertificates">Energy Attribute
                                     Certificates</a>
-                                <a className="dropdown-item" href="/machine-learning">Energy Demand
+                                <a className="dropdown-item" href="/machineLearning">Energy Demand
                                     Prediction - Machine Learning</a>
                             </div>
                         </li>
