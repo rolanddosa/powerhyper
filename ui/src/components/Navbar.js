@@ -26,7 +26,7 @@ function Navbar() {
                             <a className="nav-link" href="/energy-economics">Energy Economics</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Live Production</a>
+                            <a className="nav-link" href="/live-tracker">Live Tracker</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -34,7 +34,7 @@ function Navbar() {
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a className="dropdown-item" href="/energy-attribute-certificates">Energy Attribute
                                     Certificates</a>
-                                <a className="dropdown-item" href="/">Energy Demand
+                                <a className="dropdown-item" href="/machine-learning">Energy Demand
                                     Prediction - Machine Learning</a>
                             </div>
                         </li>

@@ -10,13 +10,14 @@ export class Home extends React.Component {
     render() {
         return (
             <div className="my-5 ml-custom mr-custom">
-                <h3>Friend With Earth</h3>
                 <br/>
-                <p>Friend With Earth has the mission to support all activities contributing
+                <p>Power Hyper has the mission to support all activities contributing
                     to the
-                    transition to a world running on renewable energy. It is a place that provides analysis and
-                    suggestions on reaching that goal in the shortest time.
+                    transition to a world running on renewable energy. It provides analysis and
+                    suggestions on steps to reach that goal.
                 </p>
+                <br/>
+                <br/>
                 <br/>
                 <Carousel className={'carousel'}>
                     <Carousel.Item>
@@ -38,6 +39,7 @@ export class Home extends React.Component {
                         />
                     </Carousel.Item>
                 </Carousel>
+                <br/>
             </div>
         )
     }

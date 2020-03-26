@@ -11,7 +11,7 @@ function Footer() {
                         <p>
                             <a className="mb-4 font-weight-bold WhiteFont"> About us </a>
                         </p>
-                        <p className={'WhiteFont'}> Friend With Earth (FWE) covers initiatives aiding the transition to
+                        <p className={'WhiteFont'}> PowerHyper covers initiatives aiding the transition to
                             renewable energy. It is a platform that evaluates all applicable topics and
                             facilitates relevant actions.
                         </p>
@@ -28,19 +28,19 @@ function Footer() {
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 className="mb-4 font-weight-bold WhiteFont">Contact</h6>
                         <p className={'WhiteFont'}>
-                            <i className="fas fa-envelope mr-3"></i>✉ info@friendwithearth.com</p>
+                            <i className="fas fa-envelope mr-3"></i>✉ info@powerhyper.com</p>
                         <p/>
                     </div>
                 </div>
                 <div className="text-center">
-                    <a href="https://www.instagram.com/friendwithearth/" target="_blank"><img
+                    <a href="https://www.instagram.com/_powerhyper_/" target="_blank"><img
                         src={InstagramIcon} height={32} width={32}/></a>
                 </div>
                 <hr className={'WhiteBorder'}/>
                 <div className="row d-flex align-items-center">
                     <div className="col-md-7 col-lg-8">
                         <p className="text-center text-md-left WhiteFont">© {(new Date().getFullYear())}:
-                            <strong> Friend With Earth</strong>
+                            <strong> Power Hyper</strong>
                         </p>
                     </div>
                     <div className="col-md-5 col-lg-4 ml-lg-0">
