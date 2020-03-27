@@ -1,0 +1,21 @@
+{
+  "name": "react-ui",
+  "version": "1.0.0",
+  "description": "react-ui for powerhyper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "roland",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolanddosa/powerhyper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rolanddosa/powerhyper/issues"
+  },
+  "homepage": "https://github.com/rolanddosa/powerhyper#readme"
+}

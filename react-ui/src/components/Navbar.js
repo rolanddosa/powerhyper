@@ -1,5 +1,5 @@
 import React from "react";
-import Dropdown from "../../node_modules/react-bootstrap/Dropdown";
+import Dropdown from "../node_modules/react-bootstrap/Dropdown";
 
 function Navbar() {
     {
