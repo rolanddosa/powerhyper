@@ -1,25 +1,36 @@
 package mainPackage.elexonRestService;
 
-import mainPackage.elexonRestService.elexonModel.Response;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.Assert.*;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
 
 @SpringBootTest
 @RunWith(JUnit4.class)
 public class ElexonServiceTest {
 
-//    @Autowired
-//    private ElexonRestRepository elexonRestRepository;
+    @Mock
+    private ElexonRestRepository elexonRestRepository;
+
+    @InjectMocks
+    private ElexonService elexonService;
+
+    @Before
+    public void init() {
+        MockitoAnnotations.initMocks(this);
+    }
+
 
     @Test
     public void updateElexonValues() {
-//        ElexonRestRepository elexonRestRepository = new ElexonRestRepository();
-//        Response response = elexonRestRepository.callElexon();
-//        return;
+        elexonService.updateElexonValues();
+        verify(elexonRestRepository, times(1)).callElexon();
     }
 }
