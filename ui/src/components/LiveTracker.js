@@ -110,7 +110,7 @@ export class LiveTracker extends React.Component {
                 labels: mylabels,
                 datasets: [
                     {
-                        label: 'My First dataset',
+                        label: 'Live Power Generation Tracker ',
                         backgroundColor: 'rgba(255,99,132,0.2)',
                         borderColor: 'rgba(255,99,132,1)',
                         borderWidth: 1,
@@ -123,11 +123,10 @@ export class LiveTracker extends React.Component {
 
             return (
                 <div>
-                    BarChart here:
                     <Bar
                         data={data}
                         width={100}
-                        height={50}
+                        height={500}
                         options={{
                             maintainAspectRatio: false
                         }}
