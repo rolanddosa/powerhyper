@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb50da2d.chunk.css",
+    "main.js": "/static/js/main.bdd56398.chunk.js",
+    "main.js.map": "/static/js/main.bdd56398.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.db9d15da.js",
+    "runtime-main.js.map": "/static/js/runtime-main.db9d15da.js.map",
+    "static/css/2.03e4cd04.chunk.css": "/static/css/2.03e4cd04.chunk.css",
+    "static/js/2.d3d838a8.chunk.js": "/static/js/2.d3d838a8.chunk.js",
+    "static/js/2.d3d838a8.chunk.js.map": "/static/js/2.d3d838a8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dd4a5299fe2a21a805691bb31ddb01df.js": "/precache-manifest.dd4a5299fe2a21a805691bb31ddb01df.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.03e4cd04.chunk.css.map": "/static/css/2.03e4cd04.chunk.css.map",
+    "static/css/main.fb50da2d.chunk.css.map": "/static/css/main.fb50da2d.chunk.css.map",
+    "static/js/2.d3d838a8.chunk.js.LICENSE.txt": "/static/js/2.d3d838a8.chunk.js.LICENSE.txt",
+    "static/media/ECOHZ-EAC-Map.jpg": "/static/media/ECOHZ-EAC-Map.918062ba.jpg",
+    "static/media/EUEnergyStats.jpg": "/static/media/EUEnergyStats.bedc82ef.jpg",
+    "static/media/instagram_icon.png": "/static/media/instagram_icon.34ada163.png",
+    "static/media/investments.png": "/static/media/investments.fcaf0ec7.png",
+    "static/media/solar.jpg": "/static/media/solar.f871f0fb.jpg",
+    "static/media/wind.jpg": "/static/media/wind.002d2237.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db9d15da.js",
+    "static/css/2.03e4cd04.chunk.css",
+    "static/js/2.d3d838a8.chunk.js",
+    "static/css/main.fb50da2d.chunk.css",
+    "static/js/main.bdd56398.chunk.js"
+  ]
+}

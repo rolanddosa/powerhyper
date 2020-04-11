@@ -77,8 +77,16 @@ export class LiveTracker extends React.Component {
         };
     };
 
+    getElexonApi() {
+        if (window.location.hostname.includes("localhost")) {
+            return window.location.protocol + "//" + window.location.hostname + ":8080/api/elexon";
+        } else {
+            return window.location.protocol + "//" + window.location.hostname + "/api/elexon";
+        }
+    }
+
     componentDidMount() {
-        fetch('http://localhost:8080/api/elexon')
+        fetch(this.getElexonApi())
             .then(response => response.json())
             .then(json => {
                 this.setState({
@@ -94,7 +102,31 @@ export class LiveTracker extends React.Component {
         let isLoaded, items;
         ({isLoaded, items} = this.state);
         if (!isLoaded) {
-            return <div>Loading...</div>
+            return <div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                Loading...
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
         } else {
             let mylabels = items.elexonResponseBody.responseList.items.map(function (e) {
                 return e.fuelType;
@@ -110,7 +142,7 @@ export class LiveTracker extends React.Component {
                 labels: mylabels,
                 datasets: [
                     {
-                        label: 'Live Power Generation Tracker ',
+                        label: 'Live Power Generation Tracker - United Kingdom',
                         backgroundColor: 'rgba(255,99,132,0.2)',
                         borderColor: 'rgba(255,99,132,1)',
                         borderWidth: 1,
@@ -128,9 +160,24 @@ export class LiveTracker extends React.Component {
                         width={100}
                         height={500}
                         options={{
-                            maintainAspectRatio: false
+                            maintainAspectRatio: false,
+                            scales: {
+                                yAxes: [{
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Power (Megawatt)'
+                                    }
+                                }],
+                                xAxes: [{
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Fuel Type'
+                                    }
+                                }]
+                            }
                         }}
                     />
+                    <a className={"alignRight"}>Source: Balancing Mechanism Reporting Service, ELEXON</a>
                 </div>
             );
         }
