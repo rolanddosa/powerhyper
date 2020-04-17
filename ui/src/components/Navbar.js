@@ -23,7 +23,7 @@ function Navbar() {
                             <a className="nav-link" href="/timeline">Timeline</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/energyEconomics">Energy Economics</a>
+                            <a className="nav-link" href="/energyEconomics">Economics</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/liveTracker">
@@ -31,6 +31,17 @@ function Navbar() {
                                 <span style={{color:"red"}}>* </span>
                                 <span>Live Tracker</span>
                             </a>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="renewableSourcesDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Renewable Sources</a>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a className="dropdown-item" href="/energyAttributeCertificates">Fusion</a>
+                                <a className="dropdown-item" href="/machineLearning">Solar</a>
+                                <a className="dropdown-item" href="/machineLearning">Wind</a>
+                                <a className="dropdown-item" href="/machineLearning">Wave</a>
+                                <a className="dropdown-item" href="/machineLearning">Tidal</a>
+                            </div>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

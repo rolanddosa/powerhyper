@@ -11,10 +11,8 @@ export class Home extends React.Component {
         return (
             <div className="my-5 ml-custom mr-custom">
                 <br/>
-                <p>Power Hyper has the mission to support all activities contributing
-                    to the
-                    transition to a world running on renewable energy. It provides analysis and
-                    suggestions on steps to reach that goal.
+                <p>PowerHyper has the mission to support all activities contributing to the transition to renewable
+                    energy. We provide analysis and suggestions for the renewable energy sector.
                 </p>
                 <br/>
                 <br/>
